@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+     background: url("./img/homp.jpg") no-repeat;
+    background-color: grey;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;    
+    color: white;
+    padding:20px 50px ;
+    position: fixed;
+    right: 0;
+    left: 0;
+
+}
+.login-btn{
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #1a1aff;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+   
+
+}
+
+.landing-section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 90vh;
+
+}
+.slogan{
+    color: white;
+    font-size: 30px;
+    
+}
